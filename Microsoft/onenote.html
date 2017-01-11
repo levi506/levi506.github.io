@@ -6,8 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="../css/main.css" rel="stylesheet" type="text/css">
+  <link href="../jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+  <link href="../jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+  <link href="../jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="../jQueryAssets/jquery-1.11.1.min.js"></script>
+  <script src="../jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
 </head>
 <body>
 
@@ -23,11 +28,11 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="Index.html">Home</a></li>
+        <li><a href="../index.html">Home</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Microsoft Tutorials <span class="caret"></span></a>
           <ul class="dropdown-menu">
-			  <li><a href="/Microsoft/onenote.html">Onenote</a></li>
+			  <li class="active"><a href="Microsoft/onenote.html">Onenote</a></li>
           </ul>
         </li>
         <li><a href="#">Testing</a></li>
@@ -36,10 +41,42 @@
     </div>
   </div>
 </nav>
-  <div class="main">
-  
-	</div>
-
-
+  <div class="container">
+    <div id="Accordion1">
+      <h3><a href="#">Making A Onenote Notebook on the Cloud</a></h3>
+      <div>
+        <div id="Accordion2">
+          <h3><a href="#">Making Notebook in Onedrive</a></h3>
+          <div>
+            <p>Content 1</p>
+          </div>
+          <h3><a href="#">Making Online Notebook from Onenote</a></h3>
+          <div>
+            <p>Content 2</p>
+          </div>
+          <h3><a href="#">Moving Pre-Existing Notebook to Onedrive</a></h3>
+          <div>
+            <p>Content 3</p>
+          </div>
+        </div>
+      </div>
+      <h3><a href="#">Sharing a Notebook</a></h3>
+      <div>
+        <p>Content 2</p>
+      </div>
+      <h3><a href="#">Note Taking Tips</a></h3>
+      <div>
+        <p>Content 3</p>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+$(function() {
+	$( "#Accordion2" ).accordion(); 
+});
+</script>
 </body>
 </html>
