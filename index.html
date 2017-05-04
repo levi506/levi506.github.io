@@ -1,59 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
   <title>levi506.github.io</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="/css/main.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
+  <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span> 
       </button>
       <a class="navbar-brand" href="#">Levi506</a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
+    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
       <ul class="nav navbar-nav">
-		  <li class="active"><a href="Index.html">Home</a></li>
-        <li><a href="custom-css.html">Custom CSS</a></li>
+		  <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li class="dropdown">
+			<a class="dropdown" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-cog"></span> Projects <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li class="dropdown-header">OBS CSS</li>
+		  <li color=#0066ff><a href="projects/custom-css.html">Discord Overlay</a></li>
+        </ul>
+      </li>
+        <li><a href="about-me.html">About Me</a></li>
       </ul>
      
     </div>
   </div>
 </nav>
  
- <div class="container">
- <!--<section class="about" id="about">
-    <h2 class="hidden">About</h2>
-    <p class="text_column">null</p>
-    <p class="text_column">null</p>
-    <p class="text_column">null</p>
-  </section>-->
- <footer>
-    <div class="flexbox">
-     <article class="footer_column">
+ <div class="jumbotron text-center">
+  <p>A kid looking for new experiences.</p> 
+</div>
+
+ <div class="container-fluid">
+	<div>
+     <article>
       <h3>Projects</h3>
-      <img src="images/Project-Banner.png" alt="" width="400" height="200" class="cards"/>
+      <img src="https://levi506.github.io/images/Project-Banner.png" alt="" width="400" height="200" class="cards"/>
       <p>I'm a person who just generally does what ever I feel like developing. I also live stream games sometimes on top of what we already do. Please Click on the image above to learn about our current projects. I'm are currently in the process of developing an RPG with friends that currently goes under the code name Project Mythril.</p>
      </article>
-    <article class="footer_column">
+     
+    <article>
      <h3>Community</h3>
-      <a href="https://discord.gg/ExpbGCk"><img src="images/Discord-Feature-Graphic.png" alt="" width="400" height="200" class="cards"/></a>
+      <a href="https://discord.gg/ExpbGCk"><img src="https://levi506.github.io/images/Discord-Feature-Graphic.png" alt="" width="400" height="200" class="cards"/></a>
 		<p>If you want to be part of my ever growing community you can click the discord banner above to join our discord server. We occasionaly chat and play games as a community like Overwatch. We also have our Red Discord Bot named Clippy after the old Microsoft tutorial mate and he is constantly getting new features. <strong>Advance Warning</strong> it is pretty canerous as the kids would say.</p>
     </article>
     </div>
-  </footer>
-	</div>
-	
+</div>
 	
 
 </body>
