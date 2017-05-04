@@ -39,6 +39,14 @@
       color: #0099ff;
       font-size: 200px;
   }
+.alert-info{
+	padding: 10px;
+	border-radius: 5px;
+}
+.well-sm{
+	padding: 20px;
+	border-radius: 5px;
+}
   .thumbnail {
       padding: 0 0 15px 0;
       border: none;
@@ -140,6 +148,10 @@
       -webkit-animation-duration: 1s;
       visibility: visible;
   }
+.well {
+	border-radius: 10px;
+}
+
   @keyframes slide {
     0% {
       opacity: 0;
