@@ -1,4 +1,9 @@
-  body {
+@font-face {
+	font-family: Neue;
+	src: url("https://levi506.github.io/fonts/HelveticaNeueLTStd Ex.otf");
+}
+
+body {
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
       color: #818181;
