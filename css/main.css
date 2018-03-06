@@ -6,7 +6,8 @@
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181;
+    color: #fff;
+    background-color: #3E3E3E;
 }
 
 h2 {
@@ -157,6 +158,10 @@ h4 {
     font-family: Neue, sans-serif;
 }
 
+.navbar button {
+    background-color: #F9C15F;
+}
+
 .navbar li a,
 .navbar .navbar-brand {
     color: #fff !important;
@@ -173,8 +178,8 @@ h4 {
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-    color: #3892E1 !important;
-    background-color: #fff !important;
+    color: #fff !important;
+    background-color: #2270B3 !important;
 }
 
 .navbar-default .navbar-toggle {
