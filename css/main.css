@@ -31,7 +31,7 @@ h4 {
     border-radius: 0;
     border: 0;
     padding: 100px 25px;
-    font-family: Montserrat, sans-serif;
+    font-family: Neue, sans-serif;
 }
 
 .container-fluid {
@@ -154,12 +154,21 @@ h4 {
     color: #fff;
     letter-spacing: 1px;
     border-radius: 0;
-    font-family: Montserrat, sans-serif;
+    font-family: Neue, sans-serif;
 }
 
 .navbar li a,
 .navbar .navbar-brand {
     color: #fff !important;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    background-color: #3892E1 !important;
+}
+
+.navbar ul.dropdown-menu {
+    background-color: #3892E1;
 }
 
 .navbar-nav li a:hover,
@@ -171,10 +180,6 @@ h4 {
 .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #F9C15F !important;
-}
-
-ul.nav.navbar-nav li.dropdown-menu li {
-    color: #3892E1 !important;
 }
 
 footer .glyphicon {
